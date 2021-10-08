@@ -9,8 +9,7 @@ public class FirstTest {
 	public static void main(String[] args) {
 	
 				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
-		
-		WebDriver driver = new ChromeDriver();
+				WebDriver driver = new ChromeDriver();
 		driver.get("https://www.sugarcrm.com/au/request-demo/");
 		driver.manage().window().maximize(); 
 		
